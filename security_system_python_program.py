@@ -58,6 +58,7 @@ while True:
         otp = random.randint(1000, 9999)
 
         # for sending the message via SMS
+        # also you have to install twilio - pip install twilio , and go to its official website to get your account number, etc.
         def sms_otp():
             from twilio.rest import Client
 
